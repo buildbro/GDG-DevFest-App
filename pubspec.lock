@@ -36,6 +36,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.2"
+  cloud_firestore:
+    dependency: "direct main"
+    description:
+      name: cloud_firestore
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.12.9+1"
   collection:
     dependency: transitive
     description:
@@ -56,7 +63,7 @@ packages:
       name: crypto
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.6"
+    version: "2.1.2"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -71,6 +78,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.3.0"
+  firebase_core:
+    dependency: transitive
+    description:
+      name: firebase_core
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.4.0+9"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -82,7 +96,7 @@ packages:
       name: flutter_bloc
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.20.0"
+    version: "0.20.1"
   flutter_cache_manager:
     dependency: transitive
     description:
@@ -115,7 +129,7 @@ packages:
       name: google_maps_flutter
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.5.19+2"
+    version: "0.5.20+6"
   http:
     dependency: "direct main"
     description:
@@ -171,7 +185,7 @@ packages:
       name: provider
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.0+1"
+    version: "3.1.0"
   quiver:
     dependency: transitive
     description:
@@ -185,7 +199,7 @@ packages:
       name: rxdart
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.22.1"
+    version: "0.22.2"
   share:
     dependency: "direct main"
     description:
@@ -225,7 +239,7 @@ packages:
       name: sqflite
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.6+2"
+    version: "1.1.6+4"
   stack_trace:
     dependency: transitive
     description:
@@ -281,7 +295,7 @@ packages:
       name: url_launcher
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.1.1"
+    version: "5.1.2"
   uuid:
     dependency: transitive
     description:
